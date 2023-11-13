@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TerminalActivity">
+
+     <TextView
+        android:text="초미세/미세먼지의 지수와 온도를 보여줍니다."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         android:textSize = "20sp"
+        android:id="@+id/textView"
+         android:layout_weight="1"/>
+
+
+</LinearLayout>
